@@ -1,0 +1,60 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	gap: 10%;
+}
+.home_titulo {
+	color: #ffea00;
+	font-size: 40px;
+}
+select {
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.link_creado {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+	border: 1px solid #ffea00;
+	padding: 5px;
+	border-radius: 4px;
+	background: #ffea00;
+	transition: all 0.3s ease;
+	font-size: 16px;
+	font-weight: bold;
+}
+.link_creado:hover {
+	color: #ffea00;
+	background: none;
+	border-color: #ffea00;
+}
+.link_creado:visited {
+	color: none;
+}
+.button_pokemons {
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 3px;
+	background: #ffea00;
+	border-color: #ffea00;
+	color: #000000;
+	transition: all 0.3s ease;
+	font-size: 14px;
+	font-weight: bold;
+}
+.button_pokemons:hover {
+	color: #000000;
+	background: none;
+	border-color: #000000;
+}
+.filtrados {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:50px;
+	
+}
+
